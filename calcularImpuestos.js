@@ -1,12 +1,14 @@
-const calcularImpuestos = (edad,ingresos) =>{
-    if ((clave == "2Fj(jjbFsuj")||(clave =="eoZiugBf&g9"))  {
-        console.log("True");
+let impuestos = 0
+const calcularImpuestos = (edad, ingresos) => {
+    if ((edad >= 18) && (ingresos >=1000))  {
+        impuestos = ingresos*0.4
     } else  {
-        console.log("False ");
+        impuestos = 0
     } 
+    return impuestos;
 }
 
-console.log(validarClave("2Fj(jjbFsuj")) 
-console.log(validarClave("eoZiugBf&g9")) 
-console.log(validarClave("hola")) 
-console.log(validarClave("")) 
+console.log(calcularImpuestos(18, 1000)) // 400
+console.log(calcularImpuestos(40, 10000)) // 4000
+console.log(calcularImpuestos(17, 5000)) // 0
+console.log(calcularImpuestos(30, 500)) // 0

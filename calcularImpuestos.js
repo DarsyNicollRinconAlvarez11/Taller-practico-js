@@ -1,4 +1,4 @@
-const validarClave = (clave) =>{
+const calcularImpuestos = (edad,ingresos) =>{
     if ((clave == "2Fj(jjbFsuj")||(clave =="eoZiugBf&g9"))  {
         console.log("True");
     } else  {
